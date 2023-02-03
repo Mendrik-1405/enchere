@@ -1,0 +1,53 @@
+db.mise.insert({
+        "id": 30,
+        "enchere": {
+            "id": 5,
+            "designation": "Nouvelle",
+            "debut": "2023-06-17T21:00:00.000+00:00",
+            "fin": "2023-06-27T21:00:00.000+00:00",
+            "prixMin": 1000.0,
+            "etat": 0,
+            "login": {
+                "id": 2,
+                "email": "marie.martin@gmail.com",
+                "pwd": "motdepasse",
+                "nom": "Martin",
+                "prenom": "Marie",
+                "contact": "0623456789",
+                "etat": 0
+            },
+            "minimum": 4000.0,
+            "produit": {
+                "id": 4,
+                "designation": "Produit4",
+                "description": "Une petite description pour le produit4",
+                "prixmin": 400.0,
+                "prixmax": 300.0,
+                "login": {
+                    "id": 2,
+                    "email": "marie.martin@gmail.com",
+                    "pwd": "motdepasse",
+                    "nom": "Martin",
+                    "prenom": "Marie",
+                    "contact": "0623456789",
+                    "etat": 0
+                },
+                "photo": null,
+                "categorie": {
+                    "id": 1,
+                    "designation": "chaussure"
+                }
+            }
+        },
+        "login": {
+            "id": 0,
+            "email": null,
+            "pwd": null,
+            "nom": null,
+            "prenom": null,
+            "contact": null,
+            "etat": 50
+        },
+        "prix": 0.0,
+        "datemise": "2023-01-24T13:36:26.876111"
+    });
