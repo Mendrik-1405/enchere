@@ -3,8 +3,6 @@ package extract.model;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import extract.enchere.Mise;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

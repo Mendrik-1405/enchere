@@ -1,7 +1,5 @@
 package extract.enchere;
 
-import java.sql.Date;
-
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Data;
